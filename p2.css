@@ -1,0 +1,2077 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
+
+  @-ms-viewport {
+    width: device-width ;
+  } 
+
+   /* ipad pro 12.9
+      Portrait*/
+      @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+        .col,.p{
+          width: 100%;
+        }
+        .btn-C{
+            width: 20%;
+            margin-right: 0.4%;
+            margin-left: 1.5%;
+            margin-top: 2%;
+        }
+        .btn-C1{
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.3%;
+            margin-top: 2%;
+        }
+        
+        .btn-B{
+           
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.9%;
+            padding: 1%;
+            font-size: x-large;
+            
+        }
+        .btn-B1{
+            
+            width: 20%;
+            margin-right: 0.7%;
+            margin-left: 3%;  
+            padding: 1%;
+            
+        }
+        .btn-A{
+            margin-bottom: 4% ;
+            margin-top: 8% ;
+            margin-right: 57%;
+            
+            width: 30%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+      
+        .btn-A1{
+            margin-bottom: 3% ;
+            margin-top: 8% ;
+            margin-right: 47%;
+            
+            width: 40%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+        
+      
+      .Heading1{
+          font-size: 130%;
+          font-family: 'Sanchez';
+      }
+      .Heading2{
+       font-size: 130%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+      }
+      .Heading11{
+        font-size: 120%;
+        font-family: 'Sanchez';
+       }
+      .Heading12{
+       font-size: 120%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500
+      }
+      
+      .h{
+          margin-left: 7%; 
+           margin-bottom: 0.5%;
+           font-family: 'Roboto'; 
+           font-size: Medium;
+           font-weight: 100;
+      }
+      
+      .form-check{
+          position: absolute;
+          right: 1%;
+          font-size: medium;
+      }
+      
+      
+      .intro11{
+          width: 90%;
+          height: 77%;
+          color: black;
+          margin: 10%;
+          margin-top: 20%;
+          margin-left: 10%;
+      }
+      .in1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 165%;
+      }
+      .jn1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 110%;
+      }
+      .intro12{
+          width: 100%;
+          height: 80%;
+          color: black;
+          margin-top: 10%;
+      }
+      .in2{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 180%;
+          
+      }
+      .jn2{
+          font-family: 'Roboto';
+          font-style: normal;
+      }
+      ul{
+          font-size: 100%;
+      }
+      .intro13{
+          width: 100%;
+          height: 77%;
+          color: black;
+          margin: 10%;
+          margin-left: 15%;
+          margin-top: 5%;
+      
+      }
+      .in3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 190%;
+          
+      }
+      .jn3{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 110%;
+      }
+      .l1{
+          height: 35%;
+          width: 50%;
+          margin-left: 20%;
+      }
+      
+      .intro14{
+          width: 100%;
+          height: 90%;
+          color: white;
+          padding-left: 29%;
+          margin-top: 20%;
+      }
+      .logo{
+          height: 18%;
+          width: 75%;
+          margin-left: 9%;
+          margin-bottom: 12%;
+      }
+      .in4{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 250%;
+          margin-left: 5%; 
+      }
+      .jn4{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 92%;
+          margin-left: -8%;
+         
+      }
+      
+      .intro21{
+          height: 90%;
+          width: 100%;
+      }
+      
+      .intro22{
+          height: 100%;
+          width: 90%;
+          margin-left: 5%;
+      }
+      
+      .intro23{
+          height: 95%;
+          width: 100%;
+      
+      }
+      
+      .intro24{
+          height: 90%;
+          width: 70%;
+          margin-left:15% ;
+          margin-top: 5%;
+      
+      }
+      
+      .last{
+          height: 20%;
+          width: 100%;
+      }
+      
+      .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1.5fr;
+          margin-top: 8%;
+      }
+      .grid-container-child{
+         display: grid;
+         grid-template-columns: 1.5fr 1fr;
+         margin-bottom: 10%;
+      }
+      
+      #a{ order: 1;}
+      #b{ order: 2;}
+      }
+  
+  
+
+  
+      /* ipad pro 12.9
+      Landscape*/
+  
+      @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
+        .col,.p{
+          width: 100%;
+        }
+        .btn-C{
+            width: 20%;
+            margin-right: 0.4%;
+            margin-left: 1.5%;
+            margin-top: 2%;
+        }
+        .btn-C1{
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.3%;
+            margin-top: 2%;
+        }
+        
+        .btn-B{
+           
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.9%;
+            padding: 1%;
+            font-size: x-large;
+            
+        }
+        .btn-B1{
+            
+            width: 20%;
+            margin-right: 0.7%;
+            margin-left: 3%;  
+            padding: 1%;
+            
+        }
+        .btn-A{
+            margin-bottom: 4% ;
+            margin-top: 8% ;
+            margin-right: 57%;
+            
+            width: 30%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+    
+        .btn-A1{
+            margin-bottom: 3% ;
+            margin-top: 8% ;
+            margin-right: 47%;
+            
+            width: 40%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+        
+    
+      .Heading1{
+          font-size: 130%;
+          font-family: 'Sanchez';
+      }
+      .Heading2{
+       font-size: 130%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+      }
+      .Heading11{
+        font-size: 120%;
+        font-family: 'Sanchez';
+       }
+    .Heading12{
+       font-size: 120%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500
+    }
+      
+      .h{
+          margin-left: 7%; 
+           margin-bottom: 0.5%;
+           font-family: 'Roboto'; 
+           font-size: Medium;
+           font-weight: 100;
+      }
+    
+      .form-check{
+          position: absolute;
+          right: 1%;
+          font-size: medium;
+      }
+    
+     
+      .intro11{
+          width: 90%;
+          height: 78%;
+          color: black;
+          margin: 10%;
+          margin-top: 20%;
+          margin-left: 12%;
+      }
+      .in1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 210%;
+      }
+      .jn1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 110%;
+      }
+      .intro12{
+          width: 100%;
+          height: 80%;
+          color: black;
+          margin-top: 10%;
+      }
+      .in2{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 220%;
+          
+      }
+      .jn2{
+          font-family: 'Roboto';
+          font-style: normal;
+      }
+      ul{
+          font-size: 106%;
+      }
+      .intro13{
+          width: 100%;
+          height: 80%;
+          color: black;
+          margin: 10%;
+          margin-left: 15%;
+          margin-top: 5%;
+     
+      }
+      .in3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 250%;
+          
+      }
+      .jn3{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 130%;
+      }
+      .l1{
+          height: 20%;
+          width: 50%;
+      }
+    
+      .intro14{
+          width: 100%;
+          height: 99%;
+          color: white;
+          padding-left: 29%;
+          margin-top: 20%;
+      }
+      .logo{
+          height: 20%;
+          width: 65%;
+          margin-left: 8%;
+          margin-bottom: 12%;
+      }
+      .in4{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 280%;
+          margin-left: 4%; 
+      }
+      .jn4{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 110%;
+          margin-left: -8%;
+      }
+      
+      .l1{
+          height: 48%;
+          width: 50%;
+          margin-left: 18%;
+      }
+      .intro21{
+          height: 90%;
+          width: 100%;
+      }
+    
+      .intro22{
+          height: 100%;
+          width: 90%;
+          margin-left: 5%;
+      }
+    
+      .intro23{
+          height: 95%;
+          width: 100%;
+    
+      }
+    
+      .intro24{
+          height: 80%;
+          width: 70%;
+          margin-left:15% ;
+          margin-top: 5%;
+    
+      }
+    
+      .last{
+          height: 20%;
+          width: 100%;
+      }
+    
+      .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1.5fr;
+          margin-top: 8%;
+      }
+      .grid-container-child{
+         display: grid;
+         grid-template-columns: 1.5fr 1fr;
+         margin-bottom: 8%;
+     }
+    
+     #a{ order: 1;}
+     #b{ order: 2;}
+      }
+  
+     
+  
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .col,.p{
+      width: 100%;
+    }
+    .btn-C{
+        width: 20%;
+        margin-right: 0.4%;
+        margin-left: 1.5%;
+        margin-top: 2%;
+    }
+    .btn-C1{
+        width: 20%;
+        margin-right: 0.6%;
+        margin-left: 1.3%;
+        margin-top: 2%;
+    }
+    
+    .btn-B{
+       
+        width: 20%;
+        margin-right: 0.6%;
+        margin-left: 1.9%;
+        padding: 1%;
+        font-size: x-large;
+        
+    }
+    .btn-B1{
+        
+        width: 20%;
+        margin-right: 0.7%;
+        margin-left: 3%;  
+        padding: 1%;
+        
+    }
+    .btn-A{
+        margin-bottom: 4% ;
+        margin-top: 8% ;
+        margin-right: 57%;
+        
+        width: 30%;
+        font-family: 'Lucida Grande';
+        letter-spacing: 0.02em;
+    }
+  
+    .btn-A1{
+        margin-bottom: 3% ;
+        margin-top: 8% ;
+        margin-right: 47%;
+        
+        width: 40%;
+        font-family: 'Lucida Grande';
+        letter-spacing: 0.02em;
+    }
+    
+  
+  .Heading1{
+      font-size: 130%;
+      font-family: 'Sanchez';
+  }
+  .Heading2{
+   font-size: 130%;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+  }
+  .Heading11{
+    font-size: 120%;
+    font-family: 'Sanchez';
+   }
+  .Heading12{
+   font-size: 120%;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500
+  }
+  
+  .h{
+      margin-left: 7%; 
+       margin-bottom: 0.5%;
+       font-family: 'Roboto'; 
+       font-size: Medium;
+       font-weight: 100;
+  }
+  
+  .form-check{
+      position: absolute;
+      right: 1%;
+      font-size: medium;
+  }
+  
+  
+  .intro11{
+      width: 100%;
+      height: 77%;
+      color: black;
+      margin: 10%;
+      margin-top: 20%;
+      margin-left: 12%;
+  }
+  .in1{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 155%;
+  }
+  .jn1{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-size: 95%;
+  }
+  .intro12{
+      width: 100%;
+      height: 80%;
+      color: black;
+      margin-top: 10%;
+  }
+  .in2{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-size: 160%;
+      
+  }
+  .jn2{
+      font-family: 'Roboto';
+      font-style: normal;
+  }
+  ul{
+      font-size: 90%;
+  }
+  .intro13{
+      width: 100%;
+      height: 77%;
+      color: black;
+      margin: 10%;
+      margin-left: 15%;
+      margin-top: 5%;
+  
+  }
+  .in3{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-size: 170%;
+      
+  }
+  .jn3{
+      font-family:  'Roboto';
+      font-style: normal;
+      font-size: 90%;
+  }
+  .l1{
+      height: 35%;
+      width: 50%;
+  }
+  
+  .intro14{
+      width: 100%;
+      height: 90%;
+      color: white;
+      padding-left: 29%;
+      margin-top: 20%;
+  }
+  .logo{
+      height: 15%;
+      width: 65%;
+      margin-left: 12%;
+      margin-bottom: 12%;
+  }
+  .in4{
+      font-family:  'Roboto';
+      font-style: normal;
+      font-size: 200%;
+      margin-left: 2%; 
+  }
+  .jn4{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-size: 70%;
+      margin-left: -8%;
+     
+  }
+  
+  .intro21{
+      height: 90%;
+      width: 100%;
+  }
+  
+  .intro22{
+      height: 100%;
+      width: 90%;
+      margin-left: 5%;
+  }
+  
+  .intro23{
+      height: 95%;
+      width: 100%;
+  
+  }
+  
+  .intro24{
+      height: 90%;
+      width: 70%;
+      margin-left:15% ;
+      margin-top: 5%;
+  
+  }
+  
+  .last{
+      height: 20%;
+      width: 100%;
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      margin-top: 8%;
+  }
+  .grid-container-child{
+     display: grid;
+     grid-template-columns: 1.5fr 1fr;
+     margin-bottom: 10%;
+  }
+  
+  #a{ order: 1;}
+  #b{ order: 2;}
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+      .col,.p{
+        width: 100%;
+      }
+      .btn-C{
+          width: 20%;
+          margin-right: 0.4%;
+          margin-left: 1.5%;
+          margin-top: 2%;
+      }
+      .btn-C1{
+          width: 20%;
+          margin-right: 0.6%;
+          margin-left: 1.3%;
+          margin-top: 2%;
+      }
+      
+      .btn-B{
+         
+          width: 20%;
+          margin-right: 0.6%;
+          margin-left: 1.9%;
+          padding: 1%;
+          font-size: x-large;
+          
+      }
+      .btn-B1{
+          
+          width: 20%;
+          margin-right: 0.7%;
+          margin-left: 3%;  
+          padding: 1%;
+          
+      }
+      .btn-A{
+          margin-bottom: 4% ;
+          margin-top: 8% ;
+          margin-right: 57%;
+          
+          width: 30%;
+          font-family: 'Lucida Grande';
+          letter-spacing: 0.02em;
+      }
+  
+      .btn-A1{
+          margin-bottom: 3% ;
+          margin-top: 8% ;
+          margin-right: 47%;
+          
+          width: 40%;
+          font-family: 'Lucida Grande';
+          letter-spacing: 0.02em;
+      }
+      
+  
+    .Heading1{
+        font-size: 130%;
+        font-family: 'Sanchez';
+    }
+    .Heading2{
+     font-size: 130%;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+    }
+    .Heading11{
+      font-size: 120%;
+      font-family: 'Sanchez';
+     }
+  .Heading12{
+     font-size: 120%;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500
+  }
+    
+    .h{
+        margin-left: 7%; 
+         margin-bottom: 0.5%;
+         font-family: 'Roboto'; 
+         font-size: Medium;
+         font-weight: 100;
+    }
+  
+    .form-check{
+        position: absolute;
+        right: 1%;
+        font-size: medium;
+    }
+  
+   
+    .intro11{
+        width: 100%;
+        height: 78%;
+        color: black;
+        margin: 10%;
+        margin-top: 20%;
+        margin-left: 12%;
+    }
+    .in1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 180%;
+    }
+    .jn1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 100%;
+    }
+    .intro12{
+        width: 100%;
+        height: 80%;
+        color: black;
+        margin-top: 10%;
+    }
+    .in2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 180%;
+        
+    }
+    .jn2{
+        font-family: 'Roboto';
+        font-style: normal;
+    }
+    ul{
+        font-size: 96%;
+    }
+    .intro13{
+        width: 100%;
+        height: 80%;
+        color: black;
+        margin: 10%;
+        margin-left: 15%;
+        margin-top: 5%;
+   
+    }
+    .in3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 190%;
+        
+    }
+    .jn3{
+        font-family:  'Roboto';
+        font-style: normal;
+        font-size: 110%;
+    }
+    .l1{
+        height: 40%;
+        width: 50%;
+    }
+  
+    .intro14{
+        width: 100%;
+        height: 109%;
+        color: white;
+        padding-left: 29%;
+        margin-top: 20%;
+    }
+    .logo{
+        height: 25%;
+        width: 65%;
+        margin-left: 10%;
+        margin-bottom: 12%;
+    }
+    .in4{
+        font-family:  'Roboto';
+        font-style: normal;
+        font-size: 240%;
+        margin-left: 5%; 
+    }
+    .jn4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 75%;
+        margin-left: -8%;
+    }
+    
+    .l1{
+        height: 48%;
+        width: 50%;
+        margin-left: 18%;
+    }
+    .intro21{
+        height: 90%;
+        width: 100%;
+    }
+  
+    .intro22{
+        height: 100%;
+        width: 90%;
+        margin-left: 5%;
+    }
+  
+    .intro23{
+        height: 95%;
+        width: 100%;
+  
+    }
+  
+    .intro24{
+        height: 80%;
+        width: 70%;
+        margin-left:15% ;
+        margin-top: 5%;
+  
+    }
+  
+    .last{
+        height: 20%;
+        width: 100%;
+    }
+  
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        margin-top: 8%;
+    }
+    .grid-container-child{
+       display: grid;
+       grid-template-columns: 1.5fr 1fr;
+       margin-bottom: 8%;
+   }
+  
+   #a{ order: 1;}
+   #b{ order: 2;}
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+      .col,.p{
+        width: 100%;
+      }
+      .btn-C{
+          width: 20%;
+          margin-right: 0.4%;
+          margin-left: 1.5%;
+          margin-top: 2%;
+      }
+      .btn-C1{
+          width: 20%;
+          margin-right: 0.6%;
+          margin-left: 1.3%;
+          margin-top: 2%;
+      }
+      
+      .btn-B{
+         
+          width: 20%;
+          margin-right: 0.6%;
+          margin-left: 1.9%;
+          padding: 1%;
+          font-size: x-large;
+          
+      }
+      .btn-B1{
+          
+          width: 20%;
+          margin-right: 0.7%;
+          margin-left: 3%;  
+          padding: 1%;
+          
+      }
+      .btn-A{
+          margin-bottom: 4% ;
+          margin-top: 8% ;
+          margin-right: 57%;
+          
+          width: 30%;
+          font-family: 'Lucida Grande';
+          letter-spacing: 0.02em;
+      }
+    
+      .btn-A1{
+          margin-bottom: 3% ;
+          margin-top: 8% ;
+          margin-right: 47%;
+          
+          width: 40%;
+          font-family: 'Lucida Grande';
+          letter-spacing: 0.02em;
+      }
+      
+    
+    .Heading1{
+        font-size: 130%;
+        font-family: 'Sanchez';
+    }
+    .Heading2{
+     font-size: 130%;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+    }
+    .Heading11{
+      font-size: 120%;
+      font-family: 'Sanchez';
+     }
+    .Heading12{
+     font-size: 120%;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500
+    }
+    
+    .h{
+        margin-left: 7%; 
+         margin-bottom: 0.5%;
+         font-family: 'Roboto'; 
+         font-size: Medium;
+         font-weight: 100;
+    }
+    
+    .form-check{
+        position: absolute;
+        right: 1%;
+        font-size: medium;
+    }
+    
+    
+    .intro11{
+        width: 100%;
+        height: 77%;
+        color: black;
+        margin: 10%;
+        margin-top: 20%;
+        margin-left: 12%;
+    }
+    .in1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 155%;
+    }
+    .jn1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 95%;
+    }
+    .intro12{
+        width: 100%;
+        height: 80%;
+        color: black;
+        margin-top: 10%;
+    }
+    .in2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 160%;
+        
+    }
+    .jn2{
+        font-family: 'Roboto';
+        font-style: normal;
+    }
+    ul{
+        font-size: 90%;
+    }
+    .intro13{
+        width: 100%;
+        height: 77%;
+        color: black;
+        margin: 10%;
+        margin-left: 15%;
+        margin-top: 5%;
+    
+    }
+    .in3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 170%;
+        
+    }
+    .jn3{
+        font-family:  'Roboto';
+        font-style: normal;
+        font-size: 90%;
+    }
+    .l1{
+        height: 35%;
+        width: 50%;
+    }
+    
+    .intro14{
+        width: 100%;
+        height: 90%;
+        color: white;
+        padding-left: 29%;
+        margin-top: 20%;
+    }
+    .logo{
+        height: 15%;
+        width: 65%;
+        margin-left: 12%;
+        margin-bottom: 12%;
+    }
+    .in4{
+        font-family:  'Roboto';
+        font-style: normal;
+        font-size: 200%;
+        margin-left: 2%; 
+    }
+    .jn4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 70%;
+        margin-left: -8%;
+       
+    }
+    
+    .intro21{
+        height: 90%;
+        width: 100%;
+    }
+    
+    .intro22{
+        height: 100%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .intro23{
+        height: 95%;
+        width: 100%;
+    
+    }
+    
+    .intro24{
+        height: 90%;
+        width: 70%;
+        margin-left:15% ;
+        margin-top: 5%;
+    
+    }
+    
+    .last{
+        height: 20%;
+        width: 100%;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        margin-top: 8%;
+    }
+    .grid-container-child{
+       display: grid;
+       grid-template-columns: 1.5fr 1fr;
+       margin-bottom: 10%;
+    }
+    
+    #a{ order: 1;}
+    #b{ order: 2;}
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+      .col,.p{
+        width: 100%;
+      }
+      .btn-C{
+          width: 20%;
+          margin-right: 0.4%;
+          margin-left: 1.5%;
+          margin-top: 2%;
+      }
+      .btn-C1{
+          width: 20%;
+          margin-right: 0.6%;
+          margin-left: 1.3%;
+          margin-top: 2%;
+      }
+      
+      .btn-B{
+         
+          width: 20%;
+          margin-right: 0.6%;
+          margin-left: 1.9%;
+          padding: 1%;
+          font-size: x-large;
+          
+      }
+      .btn-B1{
+          
+          width: 20%;
+          margin-right: 0.7%;
+          margin-left: 3%;  
+          padding: 1%;
+          
+      }
+      .btn-A{
+          margin-bottom: 4% ;
+          margin-top: 8% ;
+          margin-right: 57%;
+          
+          width: 30%;
+          font-family: 'Lucida Grande';
+          letter-spacing: 0.02em;
+      }
+  
+      .btn-A1{
+          margin-bottom: 3% ;
+          margin-top: 8% ;
+          margin-right: 47%;
+          
+          width: 40%;
+          font-family: 'Lucida Grande';
+          letter-spacing: 0.02em;
+      }
+      
+  
+    .Heading1{
+        font-size: 130%;
+        font-family: 'Sanchez';
+    }
+    .Heading2{
+     font-size: 130%;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+    }
+    .Heading11{
+      font-size: 120%;
+      font-family: 'Sanchez';
+     }
+  .Heading12{
+     font-size: 120%;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500
+  }
+    
+    .h{
+        margin-left: 7%; 
+         margin-bottom: 0.5%;
+         font-family: 'Roboto'; 
+         font-size: Medium;
+         font-weight: 100;
+    }
+  
+    .form-check{
+        position: absolute;
+        right: 1%;
+        font-size: medium;
+    }
+  
+   
+    .intro11{
+        width: 100%;
+        height: 78%;
+        color: black;
+        margin: 10%;
+        margin-top: 20%;
+        margin-left: 12%;
+    }
+    .in1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 180%;
+    }
+    .jn1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 100%;
+    }
+    .intro12{
+        width: 100%;
+        height: 80%;
+        color: black;
+        margin-top: 10%;
+    }
+    .in2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 180%;
+        
+    }
+    .jn2{
+        font-family: 'Roboto';
+        font-style: normal;
+    }
+    ul{
+        font-size: 96%;
+    }
+    .intro13{
+        width: 100%;
+        height: 80%;
+        color: black;
+        margin: 10%;
+        margin-left: 15%;
+        margin-top: 5%;
+   
+    }
+    .in3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 190%;
+        
+    }
+    .jn3{
+        font-family:  'Roboto';
+        font-style: normal;
+        font-size: 110%;
+    }
+    .l1{
+        height: 40%;
+        width: 50%;
+    }
+  
+    .intro14{
+        width: 100%;
+        height: 109%;
+        color: white;
+        padding-left: 29%;
+        margin-top: 20%;
+    }
+    .logo{
+        height: 25%;
+        width: 65%;
+        margin-left: 10%;
+        margin-bottom: 12%;
+    }
+    .in4{
+        font-family:  'Roboto';
+        font-style: normal;
+        font-size: 240%;
+        margin-left: 5%; 
+    }
+    .jn4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 70%;
+        margin-left: -8%;
+    }
+    
+    .l1{
+        height: 48%;
+        width: 50%;
+        margin-left: 18%;
+    }
+    .intro21{
+        height: 90%;
+        width: 100%;
+    }
+  
+    .intro22{
+        height: 100%;
+        width: 90%;
+        margin-left: 5%;
+    }
+  
+    .intro23{
+        height: 95%;
+        width: 100%;
+  
+    }
+  
+    .intro24{
+        height: 80%;
+        width: 70%;
+        margin-left:15% ;
+        margin-top: 5%;
+  
+    }
+  
+    .last{
+        height: 20%;
+        width: 100%;
+    }
+  
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        margin-top: 8%;
+    }
+    .grid-container-child{
+       display: grid;
+       grid-template-columns: 1.5fr 1fr;
+       margin-bottom: 8%;
+   }
+  
+   #a{ order: 1;}
+   #b{ order: 2;}
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        .col,.p{
+          width: 100%;
+        }
+        .btn-C{
+            width: 20%;
+            margin-right: 0.4%;
+            margin-left: 1.5%;
+            margin-top: 2%;
+        }
+        .btn-C1{
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.3%;
+            margin-top: 2%;
+        }
+        
+        .btn-B{
+           
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.9%;
+            padding: 1%;
+            font-size: x-large;
+            
+        }
+        .btn-B1{
+            
+            width: 20%;
+            margin-right: 0.7%;
+            margin-left: 3%;  
+            padding: 1%;
+            
+        }
+        .btn-A{
+            margin-bottom: 4% ;
+            margin-top: 8% ;
+            margin-right: 57%;
+            
+            width: 30%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+      
+        .btn-A1{
+            margin-bottom: 3% ;
+            margin-top: 8% ;
+            margin-right: 47%;
+            
+            width: 40%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+        
+      
+      .Heading1{
+          font-size: 130%;
+          font-family: 'Sanchez';
+      }
+      .Heading2{
+       font-size: 130%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+      }
+      .Heading11{
+        font-size: 120%;
+        font-family: 'Sanchez';
+       }
+      .Heading12{
+       font-size: 120%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500
+      }
+      
+      .h{
+          margin-left: 7%; 
+           margin-bottom: 0.5%;
+           font-family: 'Roboto'; 
+           font-size: Medium;
+           font-weight: 100;
+      }
+      
+      .form-check{
+          position: absolute;
+          right: 1%;
+          font-size: medium;
+      }
+      
+      
+      .intro11{
+          width: 100%;
+          height: 77%;
+          color: black;
+          margin: 10%;
+          margin-top: 20%;
+          margin-left: 12%;
+      }
+      .in1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 155%;
+      }
+      .jn1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 95%;
+      }
+      .intro12{
+          width: 100%;
+          height: 80%;
+          color: black;
+          margin-top: 10%;
+      }
+      .in2{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 160%;
+          
+      }
+      .jn2{
+          font-family: 'Roboto';
+          font-style: normal;
+      }
+      ul{
+          font-size: 90%;
+      }
+      .intro13{
+          width: 100%;
+          height: 77%;
+          color: black;
+          margin: 10%;
+          margin-left: 15%;
+          margin-top: 5%;
+      
+      }
+      .in3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 170%;
+          
+      }
+      .jn3{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 90%;
+      }
+      .l1{
+          height: 30%;
+          width: 50%;
+          margin-left: 12%;
+      }
+      
+      .intro14{
+          width: 100%;
+          height: 90%;
+          color: white;
+          padding-left: 29%;
+          margin-top: 20%;
+      }
+      .logo{
+          height: 15%;
+          width: 65%;
+          margin-left: 12%;
+          margin-bottom: 12%;
+      }
+      .in4{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 200%;
+          margin-left: 4%; 
+      }
+      .jn4{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 70%;
+          margin-left: -8%;
+         
+      }
+      
+      .intro21{
+          height: 90%;
+          width: 100%;
+      }
+      
+      .intro22{
+          height: 100%;
+          width: 90%;
+          margin-left: 5%;
+      }
+      
+      .intro23{
+          height: 95%;
+          width: 100%;
+      
+      }
+      
+      .intro24{
+          height: 90%;
+          width: 70%;
+          margin-left:15% ;
+          margin-top: 5%;
+      
+      }
+      
+      .last{
+          height: 20%;
+          width: 100%;
+      }
+      
+      .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1.5fr;
+          margin-top: 8%;
+      }
+      .grid-container-child{
+         display: grid;
+         grid-template-columns: 1.5fr 1fr;
+         margin-bottom: 10%;
+      }
+      
+      #a{ order: 1;}
+      #b{ order: 2;}
+      }
+  
+    @media only screen and (min-device-width : 834px) and (max-device-width : 1112px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+        .col,.p{
+          width: 100%;
+        }
+        .btn-C{
+            width: 20%;
+            margin-right: 0.4%;
+            margin-left: 1.5%;
+            margin-top: 2%;
+        }
+        .btn-C1{
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.3%;
+            margin-top: 2%;
+        }
+        
+        .btn-B{
+           
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.9%;
+            padding: 1%;
+            font-size: x-large;
+            
+        }
+        .btn-B1{
+            
+            width: 20%;
+            margin-right: 0.7%;
+            margin-left: 3%;  
+            padding: 1%;
+            
+        }
+        .btn-A{
+            margin-bottom: 4% ;
+            margin-top: 8% ;
+            margin-right: 57%;
+            
+            width: 30%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+    
+        .btn-A1{
+            margin-bottom: 3% ;
+            margin-top: 8% ;
+            margin-right: 47%;
+            
+            width: 40%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+        
+    
+      .Heading1{
+          font-size: 130%;
+          font-family: 'Sanchez';
+      }
+      .Heading2{
+       font-size: 130%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+      }
+      .Heading11{
+        font-size: 120%;
+        font-family: 'Sanchez';
+       }
+    .Heading12{
+       font-size: 120%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500
+    }
+      
+      .h{
+          margin-left: 7%; 
+           margin-bottom: 0.5%;
+           font-family: 'Roboto'; 
+           font-size: Medium;
+           font-weight: 100;
+      }
+    
+      .form-check{
+          position: absolute;
+          right: 1%;
+          font-size: medium;
+      }
+    
+     
+      .intro11{
+          width: 100%;
+          height: 78%;
+          color: black;
+          margin: 10%;
+          margin-top: 20%;
+          margin-left: 12%;
+      }
+      .in1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 180%;
+      }
+      .jn1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 100%;
+      }
+      .intro12{
+          width: 100%;
+          height: 80%;
+          color: black;
+          margin-top: 10%;
+      }
+      .in2{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 180%;
+          
+      }
+      .jn2{
+          font-family: 'Roboto';
+          font-style: normal;
+      }
+      ul{
+          font-size: 96%;
+      }
+      .intro13{
+          width: 100%;
+          height: 80%;
+          color: black;
+          margin: 10%;
+          margin-left: 15%;
+          margin-top: 5%;
+     
+      }
+      .in3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 190%;
+          
+      }
+      .jn3{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 110%;
+      }
+      .l1{
+          height: 40%;
+          width: 50%;
+      }
+    
+      .intro14{
+          width: 100%;
+          height: 100%;
+          color: white;
+          padding-left: 29%;
+          margin-top: 20%;
+      }
+      .logo{
+          height: 25%;
+          width: 65%;
+          margin-left: 10%;
+          margin-bottom: 12%;
+      }
+      .in4{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 240%;
+          margin-left: 5%; 
+      }
+      .jn4{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 95%;
+          margin-left: -8%;
+      }
+      
+      .l1{
+          height: 48%;
+          width: 50%;
+          margin-left: 18%;
+      }
+      .intro21{
+          height: 90%;
+          width: 100%;
+      }
+    
+      .intro22{
+          height: 100%;
+          width: 90%;
+          margin-left: 5%;
+      }
+    
+      .intro23{
+          height: 95%;
+          width: 100%;
+    
+      }
+    
+      .intro24{
+          height: 80%;
+          width: 70%;
+          margin-left:15% ;
+          margin-top: 5%;
+    
+      }
+    
+      .last{
+          height: 20%;
+          width: 100%;
+      }
+    
+      .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1.5fr;
+          margin-top: 8%;
+      }
+      .grid-container-child{
+         display: grid;
+         grid-template-columns: 1.5fr 1fr;
+         margin-bottom: 8%;
+     }
+    
+     #a{ order: 1;}
+     #b{ order: 2;}
+      }
+      
+      @media only screen and (min-device-width : 834px) and (max-device-width : 1112px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        .col,.p{
+          width: 100%;
+        }
+        .btn-C{
+            width: 20%;
+            margin-right: 0.4%;
+            margin-left: 1.5%;
+            margin-top: 2%;
+        }
+        .btn-C1{
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.3%;
+            margin-top: 2%;
+        }
+        
+        .btn-B{
+           
+            width: 20%;
+            margin-right: 0.6%;
+            margin-left: 1.9%;
+            padding: 1%;
+            font-size: x-large;
+            
+        }
+        .btn-B1{
+            
+            width: 20%;
+            margin-right: 0.7%;
+            margin-left: 3%;  
+            padding: 1%;
+            
+        }
+        .btn-A{
+            margin-bottom: 4% ;
+            margin-top: 8% ;
+            margin-right: 57%;
+            
+            width: 30%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+      
+        .btn-A1{
+            margin-bottom: 3% ;
+            margin-top: 8% ;
+            margin-right: 47%;
+            
+            width: 40%;
+            font-family: 'Lucida Grande';
+            letter-spacing: 0.02em;
+        }
+        
+      
+      .Heading1{
+          font-size: 130%;
+          font-family: 'Sanchez';
+      }
+      .Heading2{
+       font-size: 130%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+      }
+      .Heading11{
+        font-size: 120%;
+        font-family: 'Sanchez';
+       }
+      .Heading12{
+       font-size: 120%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500
+      }
+      
+      .h{
+          margin-left: 7%; 
+           margin-bottom: 0.5%;
+           font-family: 'Roboto'; 
+           font-size: Medium;
+           font-weight: 100;
+      }
+      
+      .form-check{
+          position: absolute;
+          right: 1%;
+          font-size: medium;
+      }
+      
+      
+      .intro11{
+          width: 100%;
+          height: 77%;
+          color: black;
+          margin: 10%;
+          margin-top: 20%;
+          margin-left: 12%;
+      }
+      .in1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 155%;
+      }
+      .jn1{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 95%;
+      }
+      .intro12{
+          width: 100%;
+          height: 80%;
+          color: black;
+          margin-top: 10%;
+      }
+      .in2{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 160%;
+          
+      }
+      .jn2{
+          font-family: 'Roboto';
+          font-style: normal;
+      }
+      ul{
+          font-size: 90%;
+      }
+      .intro13{
+          width: 100%;
+          height: 77%;
+          color: black;
+          margin: 10%;
+          margin-left: 15%;
+          margin-top: 5%;
+      
+      }
+      .in3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 170%;
+          
+      }
+      .jn3{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 90%;
+      }
+      .l1{
+          height: 35%;
+          width: 50%;
+      }
+      
+      .intro14{
+          width: 100%;
+          height: 90%;
+          color: white;
+          padding-left: 29%;
+          margin-top: 20%;
+      }
+      .logo{
+          height: 15%;
+          width: 65%;
+          margin-left: 12%;
+          margin-bottom: 12%;
+      }
+      .in4{
+          font-family:  'Roboto';
+          font-style: normal;
+          font-size: 200%;
+          margin-left: 6%; 
+      }
+      .jn4{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-size: 75%;
+          margin-left: -8%;
+         
+      }
+      
+      .intro21{
+          height: 90%;
+          width: 100%;
+      }
+      
+      .intro22{
+          height: 100%;
+          width: 90%;
+          margin-left: 5%;
+      }
+      
+      .intro23{
+          height: 95%;
+          width: 100%;
+      
+      }
+      
+      .intro24{
+          height: 90%;
+          width: 70%;
+          margin-left:15% ;
+          margin-top: 5%;
+      
+      }
+      
+      .last{
+          height: 20%;
+          width: 100%;
+      }
+      
+      .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1.5fr;
+          margin-top: 8%;
+      }
+      .grid-container-child{
+         display: grid;
+         grid-template-columns: 1.5fr 1fr;
+         margin-bottom: 10%;
+      }
+      
+      #a{ order: 1;}
+      #b{ order: 2;}
+      }
+   
+  
